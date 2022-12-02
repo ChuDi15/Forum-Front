@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const PostCreationCategories = (props) => {
-    return (
-        <option>{props.option}</option>
-    )
-}
+  return <option value={props.option}>{props.option}</option>;
+};
 
-export default PostCreationCategories
+export default PostCreationCategories;
